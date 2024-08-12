@@ -10,7 +10,8 @@ func main() {
 	utils.ConfigurarLogger()
 
 	// loggear "Hola soy un log" usando la biblioteca log
-	log.Println("Soy un Log") // esto está genial :D pero no queremos (quieren que esté hardcodeado sino que me piden que se pueda leer de un archivo de config)
+	//log.Println("Soy un Log") // esto está genial :D pero no queremos (quieren que esté hardcodeado sino que me piden que se pueda leer de un archivo de config)
+	//*que solo lo levante del config
 
 	globals.ClientConfig = utils.IniciarConfiguracion("config.json")
 	// validar que la config este cargada correctamente
